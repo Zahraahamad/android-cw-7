@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="440dp"
+    android:layout_height="150dp"
+    android:background="#008080">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-90dp"
+        app:srcCompat="@drawable/ivysaur" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="casual"
+        android:text="Ivysaur"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_marginEnd="-138dp"
+        android:fontFamily="casual"
+        android:text="total:405"
+        android:textSize="25dp"
+        android:layout_marginTop="39dp"
+        android:textColor="@android:color/black"/>
+
+
+</RelativeLayout>

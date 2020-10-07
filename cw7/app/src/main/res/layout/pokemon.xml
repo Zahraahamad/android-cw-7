@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="412dp"
+    android:layout_height="130dp"
+    android:background="#008080">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bulbasaur"
+        android:layout_marginLeft="-100dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Balbasaur"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="casual"
+        android:text="Totat:318"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+</RelativeLayout>
